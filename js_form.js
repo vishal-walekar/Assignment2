@@ -33,8 +33,8 @@ function insertNewRecord(data){
         cell3.innerHTML=data.Email;
     var cell4=newRow.insertCell(3);
         cell4.innerHTML=data.Contact;  
-    var cell5=newRow.insertCell(4);
-       cell5.innerHTML = `<button onClick=`onEdit(this)`>Edit</button>  <button onClick=`onDelete(this)`>Delete</button>`;
+    //var cell5=newRow.insertCell(4);
+       //cell5.innerHTML = `<button onClick=`onEdit(this)`>Edit</button>  <button onClick=`onDelete(this)`>Delete</button>`
 }
 
 // Edit the data
