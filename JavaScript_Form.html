@@ -7,50 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Assignment 2</title>
 </head>
 
 <body class="bg-gray-100">
     <table>
         <tr>
             <td>
-                <form class="px-20 py-16 max-w-3xl mx-auto space-y-6" autocomplete="off" onsubmit="onFormSubmit()">
-                    <h1 class="text-3xl font-semibold">JavaScript Form</h1>
+                <form class="px-20 py-16 max-w-3xl mx-auto space-y-8" autocomplete="off" onsubmit="onFormSubmit()">
+                    <h1 class="text-3xl font-semibold">Registration Form </h1>
                     <hr>
                     <div>
                         <label for="FirstName"> First Name </label>
-                        <input class="border border-gray-500" type="text" name="FirstName" id="FirstName" />
+                        <input class="border border-gray-500" type="text" name="FirstName" id="FirstName" placeholder="Enter your First name" />
                     </div>
                     <div>
                         <label for="LastName"> Last Name </label>
-                        <input class="border border-gray-500" type="text" name="LastName" id="LastName" />
+                        <input class="border border-gray-500" type="text" name="LastName" id="LastName"  placeholder="Enter your Last name"/>
                     </div>
                     <div>
                         <label for="Email"> Email Id </label>
-                        <input class="border border-gray-500 px-2" type="text" name="Email" id="Email" />
+                        <input class="border border-gray-500 px-2" type="email" name="Email" id="Email"placeholder="Enter your Email id" />
                     </div>
                     <div>
                         <label for="Contact"> Contact No </label>
-                        <input class="border border-gray-500" type="number" name="Contact" id="Contact" />
+                        <input class="border border-gray-500" type="number" name="Contact" id="Contact" placeholder="Enter your number" />
                     </div>
                     <div class="form_action--button">
-                        <input type="submit" class="px-2 bg-orange-400 border-black rounded-lg border-2" value="Submit" />
+                        <input type="submit" class="px-2 bg-orange-300 border-black rounded-lg border-2" value="Submit" />
 
-                        <input type="reset" class="px-2 bg-orange-400 border-black rounded-lg border-2" value="Reset" />
+                        <input type="reset" class="px-2 bg-orange-300 border-black rounded-lg border-2" value="Reset" />
                     </div>
                 </form>
 
             <td class="px-16">
                 <table class="list" id="storeList">
-                    <thead ">
+                    <thead">
                         <tr>
                             <th class="px-4 border-black rounded-lg border-2">First Name</th>
                             <th class="px-4 border-black rounded-lg border-2">Last Name</th>
                             <th class="px-4 border-black rounded-lg border-2">Email Id</th>
                             <th class="px-4 border-black rounded-lg border-2">Contact No</th>
+                            <th class="px-4 border-black rounded-lg border-2"> action</th>
+                            <th> </th>
                         </tr>
                     </thead>
-                    <tbody class=" text-center  border-black rounded-lg border-2">
+                    <tbody class=" text-center border-black rounded-lg border-2 ">
 
                     </tbody>
                 </table>
